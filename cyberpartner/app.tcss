@@ -1,0 +1,84 @@
+/* CyberPartner — Dark terminal theme */
+
+Screen {
+    background: #0a0a0a;
+    layers: base overlay;
+}
+
+Header {
+    background: #0a0a0a;
+    color: #00ff41;
+    border-bottom: solid #1a3a1a;
+}
+
+Footer {
+    background: #0d0d0d;
+    color: #1a4a1a;
+    border-top: solid #1a3a1a;
+}
+
+#panes {
+    height: 1fr;
+    margin: 0 1;
+}
+
+#left-pane {
+    width: 44%;
+    border: round #1a3a1a;
+    padding: 0 1;
+    margin-right: 1;
+    background: #0a0a0a;
+}
+
+#right-pane {
+    width: 56%;
+    border: round #1a3a1a;
+    padding: 0 1;
+    background: #0a0a0a;
+}
+
+.pane-label {
+    color: #00cc33;
+    text-style: bold;
+    background: #111111;
+    width: 100%;
+    padding: 0 1;
+    border-bottom: solid #1a3a1a;
+}
+
+#chat-log {
+    height: 1fr;
+    background: transparent;
+    scrollbar-color: #1a3a1a;
+    scrollbar-background: #0a0a0a;
+    padding: 1 0;
+}
+
+#result-log {
+    height: 1fr;
+    background: transparent;
+    scrollbar-color: #1a3a1a;
+    scrollbar-background: #0a0a0a;
+    padding: 1 0;
+}
+
+#input-row {
+    height: 3;
+    margin: 0 1 1 1;
+}
+
+#command-input {
+    background: #111111;
+    color: #00ff41;
+    border: round #00cc33;
+    padding: 0 2;
+    height: 3;
+}
+
+#command-input:focus {
+    border: round #00ff41;
+}
+
+Input.-valid {
+    border: round #00ff41;
+}

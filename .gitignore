@@ -1,0 +1,8 @@
+.env
+.venv/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+cyberpartner_*.md
